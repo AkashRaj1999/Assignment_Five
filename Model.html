@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!--  Modal  -->
+    <div id="congratulation-modal"
+    class=" fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+    <div class="bg-white p-5 rounded-lg text-center">
+        <h2 class="text-5xl text-black font-bold">Congrates!</h2>
+        <div class="flex justify-center my-5">
+            <img src="coin.png" alt="Logo" class="w-10 h-10">
+        </div>
+        <p>Your donation for <span id="modal-custom-text"></span></p>
+        <h2 class="text-3xl text-black font-bold pb-3">Successfully</h2>
+        <button id="close-modal" class="px-6 py-2 bg-lime-400 rounded-md">Close Confirmation</button>
+    </div>
+</div>
+</body>
+</html>

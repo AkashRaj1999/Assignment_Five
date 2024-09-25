@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+    
+<body class="bg-gray-100">
+
+  <!-- Sticky Blurred Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur-lg bg-white bg-opacity-50 shadow-md">
+    <nav class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Call to Action -->
+      <div>
+        <button type="button" onclick="location.href = 'test.html'" class="bg-lime-300 text-black px-4 py-2 rounded-lg hover:bg-lime-600 font-bold">
+          Blog
+        </button>
+      </div>
+      
+      <!-- Menu Items -->
+      <ul class="flex space-x-8 text-gray-700">
+        <img src="logo.png" alt="Donate Coin">
+        <li><a href="#" class="hover:text-gray-900 font-bold">Donate Bangladesh</a></li>
+       
+      </ul>
+      <!-- Logo -->
+      <div class="flex text-2xl font-bold text-lime-500">
+        <img src="coin.png" alt="">
+        <h1 id="account-balance">5500 BDT</h1>
+      </div>
+      
+    </nav>
+    
+  </header>
+  <br><br><br>
+
+  <!-- Content -->
+  <main>
+
+    <div class="flex justify-center gap-2">
+      
+          <button class="bg-lime-300 text-black px-4 py-2 rounded-lg hover:bg-lime-600 font-bold">Donation</button>
+          <button class="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-600 font-bold">History</button>
+    </div>
+     <!-- First Donation Card -->
+    <div class="bg-gray-100 p-6">
+      <div class="bg-white card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img src="noakhali.png" alt="">
+        </figure>
+        <div class="card-body">
+          <span class="text-gray-500 text-sm flex py-1 px-2">
+            <img src="coin.png" alt="">
+            <h1 id="btn-donate-bd" class="font-bold"> 0 BDT</h1>
+          </span>
+          <h2 class="text-lg text-black font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+          <p class="mt-3 text-sm text-gray-600">
+            The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure.
+             Your donation will help provide essential <br> supplies and  to those affected by this disaster.
+              Every contribution,<br> big or small, makes  difference. Please join us in supporting the relief <br> 
+              efforts and making a positive impact on the lives of those in need.
+        </p>
+          <input id="input-add-money" type="text" placeholder="Write Donation Amount" class="mt-4 w-full p-2 border bg-white border-gray-300 rounded-md">
+              <button id="btn-add-donate" class="w-full mt-3 bg-lime-300 text-black font-bold py-2 px-4 rounded-md hover:bg-lime-600">
+                  Donate Now
+              </button>
+          
+          
+        </div>
+      </div>
+      <!-- Second Donation Card -->
+      <div class="bg-gray-100 p-6">
+        <div class="bg-white card card-side bg-base-100 shadow-xl">
+          <figure>
+            <img src="feni.png" alt="">
+          </figure>
+          <div class="card-body">
+            <span class="text-gray-500 text-sm flex py-1 px-2">
+              <img src="coin.png" alt="">
+              <h1 id="btn-donate-fn" class="font-bold"> 600 BDT</h1>
+            </span>
+            <h2 class="text-lg text-black font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+            <p class="mt-3 text-sm text-gray-600">
+              The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure.
+               Your donation will help provide essential <br> supplies and  to those affected by this disaster.
+                Every contribution,<br> big or small, makes  difference. Please join us in supporting the relief <br> 
+                efforts and making a positive impact on the lives of those in need.
+          </p>
+            <input id="input-add-money-fn" type="text" placeholder="Write Donation Amount" class="mt-4 w-full p-2 border bg-white border-gray-300 rounded-md">
+                <button id="btn-add-donate-fn" class="w-full mt-3 bg-lime-300 text-black font-bold py-2 px-4 rounded-md hover:bg-lime-600">
+                    Donate Now
+                </button>
+            
+            
+          </div>
+        </div>
+
+        <!-- Third Donation Card -->
+      <div class="bg-gray-100 p-6">
+        <div class="bg-white card card-side bg-base-100 shadow-xl">
+          <figure>
+            <img src="quota-protest.png" alt="">
+          </figure>
+          <div class="card-body">
+            <span class="text-gray-500 text-sm flex py-1 px-2">
+              <img src="coin.png" alt="">
+              <h1 id="btn-donate-bd" class="font-bold"> 2400 BDT</h1>
+            </span>
+            <h2 class="text-lg text-black font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+            <p class="mt-3 text-sm text-gray-600">
+              The recent floods in Noakhali have caused significant damage to <br> homes  infrastructure.
+               Your donation will help provide essential <br> supplies and  to those affected by this disaster.
+                Every contribution,<br> big or small, makes  difference. Please join us in supporting the relief <br> 
+                efforts and making a positive impact on the lives of those in need.
+          </p>
+            <input id="input-add-money" type="text" placeholder="Write Donation Amount" class="mt-4 w-full p-2 border bg-white border-gray-300 rounded-md">
+                <button id="btn-add-donate" class="w-full mt-3 bg-lime-300 text-black font-bold py-2 px-4 rounded-md hover:bg-lime-600">
+                    Donate Now
+                </button>
+            
+            
+          </div>
+        </div>
+  </main>
+  <script src="adddonate.js"></script>
+  <script src="costdonate.js"></script>
+
+</body>
+</html>
+
+
